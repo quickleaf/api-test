@@ -1,0 +1,59 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=app nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.10"
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "rules": {
+      "indent": "off",
+      "max-len": "off",
+      "no-shadow": "off",
+      "comma-style": "off",
+      "no-plusplus": "off",
+      "arrow-parens": "off",
+      "no-await-in-loop": "off",
+      "consistent-return": "off",
+      "operator-linebreak": "off",
+      "no-confusing-arrow": "off",
+      "object-curly-newline": "off",
+      "function-paren-newline": "off",
+      "implicit-arrow-linebreak": "off"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "arrowParens": "avoid",
+    "requirePragma": false,
+    "proseWrap": "preserve"
+  }
+}

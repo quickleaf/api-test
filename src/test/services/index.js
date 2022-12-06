@@ -1,0 +1,1 @@
+exports.testService = require('./testService');
