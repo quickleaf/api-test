@@ -1,0 +1,1 @@
+exports.photosService = require('./photosService');

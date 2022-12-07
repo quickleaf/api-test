@@ -1,9 +1,9 @@
 const express = require('express');
 const { asyncMiddleware } = require('../common/middlewares');
-const testController = require('./testController');
+const photosController = require('./photosController');
 
 const router = express.Router();
 
-router.get('/test', asyncMiddleware(testController.test));
+router.get('/photos', asyncMiddleware(photosController.getPhotos));
 
 module.exports = router;
