@@ -1,14 +1,17 @@
 {
-    "extends": "airbnb",
-    "rules": {
-        "max-len": "off",
-        "no-shadow": "off",
-        "arrow-parens": "off",
-        "consistent-return": "off",
-        "operator-linebreak": "off",
-        "no-confusing-arrow": "off",
-        "object-curly-newline": "off",
-        "function-paren-newline": "off",
-        "implicit-arrow-linebreak": "off"
-    }
+  "extends": "airbnb",
+  "rules": {
+    "max-len": "off",
+    "no-shadow": "off",
+    "arrow-parens": "off",
+    "consistent-return": "off",
+    "operator-linebreak": "off",
+    "no-confusing-arrow": "off",
+    "object-curly-newline": "off",
+    "function-paren-newline": "off",
+    "implicit-arrow-linebreak": "off"
+  },
+  "env": {
+    "jest": true
+  }
 }
